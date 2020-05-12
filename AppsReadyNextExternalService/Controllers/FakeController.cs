@@ -20,7 +20,7 @@ namespace AppsReadyNextExternalService.Controllers
             if (i % 10 == 0)
             {
                 Random r2 = new Random();
-                int j = r2.Next(0, 5000);
+                int j = r2.Next(0, 500);
                 Thread.Sleep(j);
             }
             return new string[] { "value1", "value2" };
